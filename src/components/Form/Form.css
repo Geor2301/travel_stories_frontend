@@ -1,0 +1,155 @@
+::placeholder{
+    font-size: 1rem;    
+}
+.inputHover:hover{
+    border-width:0.07em; 
+    border-color:black;  
+}
+.inputHover:focus{
+    outline-color:rgb(69, 69, 196)    
+}
+
+.formContainer{
+    width:23%;
+    min-width:300px;
+    max-width:315px;
+    margin-left:2%;   
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.formSearchInputContainer{
+    background-color:white;
+    height:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:15px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 0.3em;  
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);  
+}
+.formSearchInputText{
+    min-height:50px;
+    border-radius:0.4em;
+    border-width:0.07em;
+    border-color: rgb(184, 183, 183);
+}
+.formSearchInputTags{
+    min-height:50px;
+    border-radius:0.4em;
+    border-width:0.07em;
+    border-color:rgb(184, 183, 183);
+}
+.formSearchButton{
+    background-color:rgb(69, 69, 196);
+    min-height:30px;
+    color:white;
+    font-size:1rem;
+    border:none;
+    border-radius:0.4em;
+    cursor:pointer;
+}
+.formSearchButton:hover{
+    background-color:rgb(53, 53, 148);
+}
+
+.formCreatePostContainer{
+    background-color:white;       
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:15px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 0.3em; 
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);   
+}
+.formCreatePostHeading{
+    text-align:center;
+    font-size: 1.3rem;
+}
+.formCreatePostTitle{
+    min-height:40px;
+    border-radius:0.4em;
+    border-width:0.07em;
+    border-color: rgb(184, 183, 183);
+}
+.formCreatePostMessage{
+    min-height:90px;
+    border-radius:0.4em;
+    border-width:0.07em;
+    border-color: rgb(184, 183, 183);
+}
+.formCreatePostTags{
+    min-height:40px;
+    border-radius:0.4em;
+    border-width:0.07em;
+    border-color: rgb(184, 183, 183);
+}
+.formCreatePostFile{
+    cursor:pointer;
+}
+.formCreatePostSubmit{
+    background-color:rgb(69, 69, 196);
+    min-height:45px;
+    color:white;
+    font-size:1rem;
+    border:none;
+    border-radius:0.4em;
+    cursor:pointer;
+}
+.formCreatePostSubmit:hover{
+    background-color:rgb(53, 53, 148);
+}
+.formCreatePostClear{
+    background-color:rgb(230, 40, 40);
+    min-height:35px;
+    color:white;
+    font-size:1rem;
+    border:none;
+    border-radius:0.4em;
+    cursor:pointer;
+}
+.formCreatePostClear:hover{
+    background-color:rgb(202, 37, 37);
+}
+
+.formPaginationContainer{
+    background-color:white;
+    height:65px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    border-radius: 0.3em;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+.formPaginationButton-active{
+    background-color: rgb(219, 220, 220);
+    min-height:35px;
+    max-height:35px;
+    min-width:35px;
+    max-width:35px;
+    border-radius:35px;
+    border-color: rgb(88, 88, 88);
+    border-width:0.05em;
+}
+.formPaginationButton-inactive{
+    background-color: rgb(246, 249, 249);
+    min-height:35px;
+    max-height:35px;
+    min-width:35px;
+    max-width:35px;
+    border-radius:35px;
+    border-color: rgb(88, 88, 88);
+    border-width:0.05em;
+}
+.formPaginationButton-inactive:hover{
+    background-color:rgb(219, 220, 220);
+}

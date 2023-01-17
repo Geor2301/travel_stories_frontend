@@ -1,0 +1,184 @@
+.pageDivider{
+    margin-top:15px;
+    height: 1px;
+    background-color:rgb(207, 207, 207);
+    border:none;    
+}
+.loading-spinner {
+    margin-left:40px;
+    width: 30px;
+    height: 30px;
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #383636; /* Black */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+}
+.inputHover:hover{
+    border-width:0.07em; 
+    border-color:black;  
+}
+.inputHover:focus{
+    outline-color:rgb(69, 69, 196)    
+}
+
+.postDetailsContainer{
+    background-color: white;
+    height: 100%;
+    width:auto;
+    margin:2%;
+    padding:1%;
+    border-radius:1em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.postDetailsCommentsImageContainer{
+    /*background-color: grey; */
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    min-height: 100px;
+    padding:10px;
+}
+.postDetailsDescriptionSection{
+    /*background-color: lightgreen; */
+    width:40%;
+    padding:15px;
+}
+.postDetailsTitle{
+    font-size:3rem;
+}
+.postDetailsTags{
+    font-size:1.2rem;
+    color:rgb(69, 69, 196);
+}
+.postDetailsMessage{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.postDetailsCreatorDetails{
+    
+}
+.postDetailsCreatedBy{
+    font-size:1.1rem;
+}
+.postDetailsCreatorName{
+    font-size:1.1rem;
+    color:rgb(69, 69, 196);
+}
+.postDetailsCreatedAt{
+    font-size:0.95rem;
+}
+
+.PostDetailsCommentsSection{
+    /*background-color:lightgray; */
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:10px;
+}
+.postDetailsCommentsExisting{
+    /*background-color:lightcoral; */
+    width:55%;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap; 
+    gap:10px;   
+}
+.postDetailsCommentsExistingTitle{
+    font-size:1.2rem;
+}
+.postDetailsCommentsExistingComments{
+    min-height:80px;
+    border-radius:0.4em;
+    border-width:0.07em;
+    border-color: rgb(184, 183, 183);
+    font-size:0.95rem;
+    max-height:150px;
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+.postDetailsCommentsExistingComment{
+    margin-bottom:5px;
+}
+
+.postDetailsCommentsNew{
+    /*background-color:lightskyblue; */
+    width:45%;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap; 
+    gap:10px;   
+}
+.postDetailsCommentsNewTitle{    
+    font-size:1.2rem;
+}
+.postDetailsCommentsNewInput{
+    min-height:80px;
+    border-radius:0.4em;
+    border-width:0.07em;
+    border-color: rgb(184, 183, 183);
+}
+.postDetailsCommentsNewSubmit{
+    background-color:rgb(69, 69, 196);
+    min-height:30px;
+    color:white;
+    font-size:1rem;
+    border:none;
+    border-radius:0.4em;
+    cursor:pointer;
+}
+.postDetailsCommentsNewSubmit:hover{
+    background-color:rgb(53, 53, 148);
+}
+
+.postDetailsImageSection{
+    /*background-color: pink; */
+    width:60%;
+    padding:1px;    
+}
+.postDetailsImage{
+    max-width:100%;
+    max-height:100%;
+    border-radius:1em;
+}
+.postDetailsSimilarPostsContainer{
+
+}
+.postDetailsSimilarPostsYMAL{
+    font-size:1.5rem;
+}
+.postDetailsSimilarPosts{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:10px;    
+}
+.postDetailsSimilarPost{
+    cursor: pointer;
+}
+.postDetailsSimilarPostTitle{
+    font-size:1.3rem;
+    margin-bottom:10px;
+}
+.postDetailsSimilarPostCreator{
+    font-size:1rem;
+    font-family:calibri;
+    margin-bottom:10px;    
+}
+.postDetailsSimilarPostMessage{
+    font-size:1rem;
+    font-family:calibri;
+    margin-bottom:10px;    
+}
+.postDetailsSimilarPostLikes{
+    font-size:1.1rem;
+    margin-bottom:10px;    
+}
+.postDetailsSimilarPostImage{
+    max-height:100px;
+    min-height:100px;
+}

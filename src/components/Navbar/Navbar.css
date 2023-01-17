@@ -1,0 +1,100 @@
+
+.navbarContainer{
+    background-color: white;
+    height: 10%;
+    width:auto;
+    margin:2%;
+    padding:1%;
+    border-radius: 1em;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    align-items:center;   
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5); 
+}
+.navbarTitleAndText{
+    min-width:370px;
+    width:40%;
+}
+.navbarTitle{
+    margin-left:50px;
+    min-width:300px; 
+    max-width:300px;   
+}
+.navbarLogo{
+    margin-left:2%;
+    min-width:40px;  
+    max-width:40px;  
+}
+.navbarUserLogin{
+    width:40%;
+}
+.navbarSignedUserDetails{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+}
+.navbarSignedUserNameAndTagContainer{
+    min-width:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:30px;
+}
+.navbarSignedUserNameTag{
+    min-width:40px;
+    max-width:40px;
+    min-height:40px;
+    max-height:40px;
+    border-radius:40px;
+    background-color:rgb(97, 54, 188);
+    color:white;
+    font-size:1.3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.navbarSignedUserName{
+    font-size:1.3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.navbarSignedUserLogoutBtn{
+    background-color:rgb(230, 40, 40);;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:35px;
+    color:white;
+    font-size:0.85rem;
+    border:none;
+    border-radius:0.3em;
+    cursor:pointer;
+}
+.navbarSignedUserLogoutBtn:hover{
+    background-color:rgb(202, 37, 37);
+}
+.navbarNotSignedInUser{
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+    gap:70px;
+}
+.navbarSignInBtn{
+    min-height:40px;
+    max-height:40px;
+    background-color:rgb(69, 69, 196);
+    padding-left:20px;
+    padding-right:20px;
+    margin-right:80px;
+    color:white;
+    font-size:0.85rem;
+    border:none;
+    border-radius:0.3em;
+    cursor:pointer;
+}
+.navbarSignInBtn:hover{
+    background-color:rgb(53, 53, 148);
+}

@@ -1,0 +1,102 @@
+.postContainer{
+    background-color: white;
+    min-height:380px;
+    max-height: 380px;;
+    min-width:240px;
+    max-width: 240px;
+    border-radius:1em;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor:pointer;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+.postImage{
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    object-fit: fill; /* chnage to 'contain' for preserving aspect ratio */
+    max-width:100%;
+    min-height:140px;
+    max-height:140px; 
+    filter:brightness(70%);   
+}
+.postCreatedDetails{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color:white;
+}
+.postCreatorName{
+    font-size: 1.5rem;
+}
+.postCreatedDate{
+    font-size: 0.85rem;
+}
+.postEditButton{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color:white;
+}
+.postTags{
+    color:#7a7a7a;
+    margin-left:15px;
+    max-width: 100%;
+    font-size:0.85rem;
+}
+.postTitle{
+    margin-left:15px;
+    margin-right:20px;
+    max-width: 100%;
+    font-size:1.5rem;
+}
+.postMessage{
+    color:#7a7a7a;
+    margin-left:15px;
+    margin-right:15px;
+    max-width: 100%;
+    font-size:0.85rem;
+    padding-bottom: 20px;
+}
+.postLikeDeleteContainer{
+    min-width:100%;
+    max-height: 20px;
+    padding-bottom:12px;
+    display: flex;    
+    justify-content: space-between;
+}
+.postLikeSection{
+    display:flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.postLikeSection:hover{
+    background-color: #f4f2f2;
+}
+.postLikeIcon{    
+}
+.postLikeCount{
+    margin-left:5px;
+    color:rgb(69, 69, 196);
+}
+.postLikeCountGrey{
+    margin-left:5px;
+    color:#7a7a7a;
+}
+.postDeleteSection{
+    display:flex;
+    align-items: center;
+    margin-right:10px;
+}
+.postDeleteSection:hover{
+    background-color: #f4f2f2;
+}
+.postDeleteIcon{
+    margin-right:5px;
+}
+.postDeleteText{
+    color:red;
+}
